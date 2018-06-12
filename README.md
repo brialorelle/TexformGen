@@ -13,4 +13,3 @@ https://www.nature.com/articles/nn.2889
 
 This code has been used to generate stimuli used in Long, Konkle, Cohen, & Alvarez (2016),  Long, Störmer, & Alvarez, (2017), Long & Konkle (2017), and Long, Yu, and Konkle (2017, bioRxiv).If you have any questions, please email brialorelle@gmail.com. 
 
-Feel free to email me with questions. 
