@@ -24,7 +24,6 @@ currFolder='OriginalsGreen'
 saveFolder='OriginalsResized'
 Step0_resizeImages(currFolder,saveFolder)
 
-
 %% Step 2: lum contrast across images 
 % % SHINE options    [1=default, 2=custom]: 2
 % % Matching mode    [1=luminance, 2=spatial frequency, 3=both]: 1
