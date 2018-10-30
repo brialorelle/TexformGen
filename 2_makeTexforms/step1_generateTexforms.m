@@ -15,7 +15,8 @@ addpath(genpath('metamercode'))
 % load original image
 oim = double(imread([pwd filesep 'inputImages/Screenshots/Animals/0.89_cat-tigerwhite.jpg_LCMatched.png_InputImage.png'])); % can sub in an image here
 oim = mean(oim,3); % make sure it's b&w and only 1d
-oim = imresize(oim, [512 512]); % minimum dimensions
+% oim = imresize(oim, [512 512]); % minimum dimensions -- most efficient for running
+oim = imresize(oim, [640 640]); % what I actually used; outputs will work seamelessly with cropping script
 
 % set options
 opts = metamerOpts(oim,'windowType=radial','scale=0.5','aspect=1'); % parameters used in Long et al., 2016/2017
